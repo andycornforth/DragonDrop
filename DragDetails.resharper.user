@@ -1,0 +1,84 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@DragDetails.Properties.Settings">
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox">
+      <Item value="ItemHeight" priority="0" />
+      <Item value="SelectedItem" priority="0" />
+      <Item value="SelectedIndex" priority="2" />
+      <Item value="Items" priority="2" />
+      <Item value="Select" priority="0" />
+      <Item value="SetSelected" priority="0" />
+      <Item value="ClearSelected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox.ObjectCollection">
+      <Item value="Add" priority="0" />
+      <Item value="RemoveAt" priority="0" />
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MouseEventArgs">
+      <Item value="Button" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MouseButtons">
+      <Item value="Left" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyEventArgs">
+      <Item value="KeyCode" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DragDetails.AboutBox1">
+      <Item value="ShowDialog" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <EditorManager>
+    <RecentFiles>
+      <File id="54E4A2CB-DDF1-4C8B-84E2-20D2E629D181/f:OpenWindowGetter.cs" caret="0" scrollPosition="0|0" />
+      <File id="54E4A2CB-DDF1-4C8B-84E2-20D2E629D181/f:app.config" caret="0" scrollPosition="0|0" />
+      <File id="54E4A2CB-DDF1-4C8B-84E2-20D2E629D181/f:Form1.Designer.cs" caret="0" scrollPosition="0|0" />
+      <File id="54E4A2CB-DDF1-4C8B-84E2-20D2E629D181/f:Form1.cs" caret="5686" scrollPosition="0|113" />
+      <File id="54E4A2CB-DDF1-4C8B-84E2-20D2E629D181/f:Program.cs" caret="102" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>True</OptimizeUsings>
+    <RemoveRedundantThis>True</RemoveRedundantThis>
+    <ShortenReferences>True</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

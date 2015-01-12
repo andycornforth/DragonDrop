@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon Drop", "DragDetails\Dragon Drop.csproj", "{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Dragon Drop Setup", "DragSetup\DragSetup.vdproj", "{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Release|.NET.ActiveCfg = Release|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{54E4A2CB-DDF1-4C8B-84E2-20D2E629D181}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Debug|.NET.ActiveCfg = Debug
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Debug|.NET.Build.0 = Debug
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Debug|Any CPU.ActiveCfg = Debug
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Debug|Mixed Platforms.Build.0 = Debug
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Release|.NET.ActiveCfg = Release
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Release|.NET.Build.0 = Release
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Release|Any CPU.ActiveCfg = Release
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Release|Mixed Platforms.ActiveCfg = Release
+		{AB2BB490-4E6F-49B6-A0B9-C838888CB1A7}.Release|Mixed Platforms.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

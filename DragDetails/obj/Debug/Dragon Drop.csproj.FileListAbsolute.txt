@@ -1,0 +1,16 @@
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\bin\Debug\Dragon Drop.exe.config
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\bin\Debug\Dragon Drop.exe
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\bin\Debug\Dragon Drop.pdb
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\Dragon Drop.csprojResolveAssemblyReference.cache
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.Forms.ChangePin.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.Forms.CreateNewFile.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.DragonDropForm.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.Forms.ErrorMessageBox.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.Forms.Formatting.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.Forms.Information.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.LoginWindow.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.PopUpWindow.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\DragDetails.Properties.Resources.resources
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\Dragon Drop.csproj.GenerateResource.Cache
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\Dragon Drop.exe
+C:\Users\andrew.cornforth\Documents\DragonDrop\DragDetails\obj\Debug\Dragon Drop.pdb
