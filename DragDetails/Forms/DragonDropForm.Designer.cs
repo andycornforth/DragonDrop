@@ -40,7 +40,9 @@ namespace DragDetails
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.changeSecurePINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.createNewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formattingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.informationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.rightClickMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -50,8 +52,6 @@ namespace DragDetails
             this.mainTabControl = new System.Windows.Forms.TabControl();
             this.searchLabel = new System.Windows.Forms.Label();
             this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
-            this.informationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.formattingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.rightClickMenu.SuspendLayout();
             this.SuspendLayout();
@@ -140,6 +140,13 @@ namespace DragDetails
             this.createNewToolStripMenuItem.Text = "Create New Library";
             this.createNewToolStripMenuItem.Click += new System.EventHandler(this.createNewToolStripMenuItem_Click);
             // 
+            // formattingToolStripMenuItem
+            // 
+            this.formattingToolStripMenuItem.Name = "formattingToolStripMenuItem";
+            this.formattingToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.formattingToolStripMenuItem.Text = "Formatting";
+            this.formattingToolStripMenuItem.Click += new System.EventHandler(this.formattingToolStripMenuItem_Click);
+            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -147,6 +154,13 @@ namespace DragDetails
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // informationToolStripMenuItem
+            // 
+            this.informationToolStripMenuItem.Name = "informationToolStripMenuItem";
+            this.informationToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.informationToolStripMenuItem.Text = "Information";
+            this.informationToolStripMenuItem.Click += new System.EventHandler(this.informationToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
@@ -182,7 +196,8 @@ namespace DragDetails
             // 
             // mainTabControl
             // 
-            this.mainTabControl.Location = new System.Drawing.Point(0, 53);
+            this.mainTabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.mainTabControl.Location = new System.Drawing.Point(0, 54);
             this.mainTabControl.Multiline = true;
             this.mainTabControl.Name = "mainTabControl";
             this.mainTabControl.SelectedIndex = 0;
@@ -209,20 +224,6 @@ namespace DragDetails
             this.trayIcon.Visible = true;
             this.trayIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
-            // informationToolStripMenuItem
-            // 
-            this.informationToolStripMenuItem.Name = "informationToolStripMenuItem";
-            this.informationToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.informationToolStripMenuItem.Text = "Information";
-            this.informationToolStripMenuItem.Click += new System.EventHandler(this.informationToolStripMenuItem_Click);
-            // 
-            // formattingToolStripMenuItem
-            // 
-            this.formattingToolStripMenuItem.Name = "formattingToolStripMenuItem";
-            this.formattingToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.formattingToolStripMenuItem.Text = "Formatting";
-            this.formattingToolStripMenuItem.Click += new System.EventHandler(this.formattingToolStripMenuItem_Click);
-            // 
             // DragonDropForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,10 +236,10 @@ namespace DragDetails
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
             this.Name = "DragonDropForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DD";
+            this.Resize += new System.EventHandler(this.DragonDropForm_Resize);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.rightClickMenu.ResumeLayout(false);

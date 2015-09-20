@@ -23,7 +23,6 @@ namespace DragDetails
         {
             InitializeComponent();
 
-            FormBorderStyle = FormBorderStyle.FixedDialog;
             //string currentDir = Environment.CurrentDirectory;
             //string desktopDir = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
             CUTANDPASTEFILE = (string)Settings.Default["defaultFile"];//currentDir + "/" + Settings.Default["defaultFile"];
@@ -383,6 +382,15 @@ namespace DragDetails
                 ChangeFontSize(formatting.Font, formatting.FontSize);
             }
             formatting.Dispose();
+        }
+
+        private void DragonDropForm_Resize(object sender, EventArgs e)
+        {
+            foreach (TabPage tab in mainTabControl.TabPages)
+            {
+                var rtb = tab.Controls[0];
+                rtb.Size = tab.Size;
+            }
         }
     }
 }
